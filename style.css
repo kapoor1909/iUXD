@@ -1,0 +1,215 @@
+html{
+    font-size: 10px;
+}
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #ffffff;
+}
+nav{
+    padding: 0rem 4rem;
+}
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 8rem;
+}
+.anim1{
+    width: 5rem;
+}
+.left{
+    display: flex;
+    justify-content: center
+}
+.left img{
+    width: 60rem;
+    height: 55rem;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.backdrop{
+    background-color: #000000;
+    opacity: 0.7;
+}
+.title{
+    text-align: left;
+    font-size: 5rem;
+    margin-bottom: 0.2rem;
+}
+.caption{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.mail-input{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.mail-input input{
+    border: 0;
+    background-color: #ffffff;
+    width: 25rem;
+    height: 3.2rem;
+    border-radius: 0.5rem;
+    margin-right: 3rem;
+    outline: none;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.mail-input input::placeholder{
+    color: #000000;
+
+}
+.notify{
+    width: 13rem;
+    height: 3.2rem;
+    border-radius: 0.5rem;
+    background-color: #3949AB;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+.mail:hover{
+    text-decoration: none;
+}
+.intro{
+    font-size: 1.8rem;
+    width: 60rem;  
+    margin-bottom: 2rem;
+}
+.talk, .work{
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+.contact-us, .hire{
+    width: 13rem;
+    border-radius: 0.5rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+    background-color: #3949AB;
+    color: #ffffff;
+}
+.inner{
+    align-items: center;
+    display: flex;
+    
+}
+.contact, .hiring{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.work span{
+    background-color: #0072dc;
+    width: 19rem;
+    border-radius: 0.5rem;
+}
+.linkedin, .instagram{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.linkedin:hover{
+    color: #0072dc;
+}
+.instagram:hover{
+    color: #ff607f;
+}
+@media(max-width: 1220px){
+    html{
+        font-size: 9px;
+    }
+}
+@media(max-width: 1082px){
+    html{
+        font-size: 8.5px;
+    }
+}
+@media(max-width: 1020px){
+    html{
+        font-size: 10px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .right{
+        margin-right: 0;
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        display: none;
+    }
+    .intro{
+        width: 50rem;
+        text-align: center;
+    }
+}
+@media(max-width: 520px){
+    .intro{
+        width: 40rem;
+    }
+}
+@media(max-width: 440px){
+    html{
+        font-size: 9px;
+    }
+    .mail-input input{
+        width: 20rem;
+    }
+    .notify{
+        width: 8rem;
+    }
+    .contact-us{
+        width: 10rem;
+    }
+    .talk, .work{
+        font-size: 2.5rem;
+        margin-right: 0;
+        font-weight: bold;
+    }
+    
+   
+    .intro{
+        width: 30rem;
+    }
+    .contact{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .work, .talk{
+        margin-bottom: 2rem;
+    }
+    .hiring{
+        flex-direction: column;
+    }
+    .hire{
+        font-weight: bold;
+    }
+}
