@@ -126,13 +126,13 @@ nav{
     width: 19rem;
     border-radius: 0.5rem;
 }
-.linkedin, .instagram{
+.linkedin, .instagram, .facebook, .twitter{
     color: #ffffff;
     font-size: 2.5rem;
     margin-left: 3rem;
     margin-top: 0.5rem;
 }
-.linkedin:hover{
+.linkedin:hover, .facebook:hover, .twitter:hover{
     color: #0072dc;
 }
 .instagram:hover{
